@@ -117,7 +117,7 @@ NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.449
 function hungryDog(weight, age) {
   if (age < 4 / 12) {
     return 0.1 * weight;
-  } else if (age < 7 / 12) {
+  } else if (age < 0.583) {
     return 0.05 * weight;
   } else if (age < 1 && age >= 0.583) {
     return 0.04 * weight;
